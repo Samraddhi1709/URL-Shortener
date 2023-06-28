@@ -1,0 +1,29 @@
+<%- include('./includes/header'); -%>
+
+<%- include('./navbar') -%>
+
+  <div class="form-container">
+
+    <div class="div"> Make your url shorter</div>
+
+    <form action="/" method="post">
+      <input class="form-control" name="url" placeholder="Paste your url here"/>
+      <button class="btn btn-secondary"> Click </button>
+    </form>
+
+
+    <% if(urls.length === 0){  %>
+      <h3> No history </h3>
+    <%} else{ %>
+
+    
+
+      <%- include('./table', { urls: urls }) %>
+
+
+
+    <% } %>
+
+  </div>
+
+  <%- include('./includes/footer'); -%>
