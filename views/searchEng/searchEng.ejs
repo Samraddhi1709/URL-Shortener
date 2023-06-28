@@ -1,0 +1,37 @@
+<%- include('../includes/header'); -%>
+
+<%- include('../navbar') -%>
+
+<div  class="form-container">
+
+  <div class="div"> Search url here</div>
+
+<form method="POST" action="/search/">
+  <div class="input-group">
+      <input type="text" class="form-control rounded" placeholder="Search Url" aria-label="Search" aria-describedby="search-addon" name="url" />
+      <button type="submit" class="btn btn-outline-primary">search</button>
+  </div>
+</form>
+
+
+
+<% if(isUrlsExist){ %>
+
+    <% if(urls.length > 0) { %>
+
+      <% console.log(urls) %>
+
+
+      <%- include('../table', { urls: urls }) %>
+
+    <% } else { %>
+
+      <div> No url found for this search</div>
+
+    <% }} %>
+
+</div>
+
+
+
+<%- include('../includes/footer'); -%>
