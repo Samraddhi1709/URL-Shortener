@@ -1,0 +1,47 @@
+/* bootstrap css */
+
+.navbar-nav{
+    margin-left: 3%;
+}
+
+/*  custom css */
+
+body{
+    background: #79B4B7;
+}
+
+.form-container {
+    width: 60%;
+    margin: auto;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.form-container input {
+    /* width: 50%; */
+    display: inline-block;
+}
+
+.form-container form {
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.div{
+    margin-bottom: 1rem;
+    color: white;;
+}
+
+.form-container th, .form-container td{
+    text-align: center;
+}
+
+.form-container thead tr th{
+    text-align: start;
+}
+
+.link{
+    text-align: start !important;
+}
+
+
