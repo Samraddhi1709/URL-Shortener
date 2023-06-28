@@ -31,7 +31,7 @@ app.use(routes);
 
 
 
-mongoose.connect('mongodb+srv://writetomailhimanshu:himanshu@cluster0.zn9fzn1.mongodb.net/url-shortner')
+mongoose.connect('mongodb+srv://samraddhi000:samraddhi@cluster0.wtnc8sr.mongodb.net/urlshortener')
 .then(()=>{
     console.log("You have succussfully connected to the mongoDB");
     app.listen(8080);
