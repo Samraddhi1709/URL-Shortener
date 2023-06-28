@@ -1,0 +1,30 @@
+
+
+  <%- include('../includes/auth/start'); -%>
+
+  <form method="POST" action="/auth/sign-in">
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="email" id="form3Example3" class="form-control" name="email" />
+      <label class="form-label" for="form3Example3">Email address</label>
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <input type="password" id="form3Example4" class="form-control" name="password"/>
+      <label class="form-label" for="form3Example4">Password</label>
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">
+      Sign in
+    </button>
+
+  </form>
+
+<div><a href="/auth/sign-up"> create account </a></div>
+
+
+
+  <%- include('../includes/auth/end'); -%>
