@@ -39,7 +39,7 @@ For every original URL you provide, a random string is generated and appended to
 
   - short url (generate url)
 
-  - short url but not include domain name (on which project run) like if your generated short url is "http://localhost:8080/dsffhfpj" then you are able to search with "dsffhfpj" , you don't need to search by whole shprt url
+  - short url but not include domain name (on which project run) like if your generated short url is "http://localhost:8080/dsffhfpj" then you are able to search with "dsffhfpj" , you don't need to search by whole short url
 
 
   The search result will provide you full url , short url that are generated and number of clicks that short url get
