@@ -27,11 +27,11 @@ The URL Shortener and Search Optimization project is designed to simplify long U
 
 ## How It Works
 
-  ### 1 For generate short url
+  ### 1. For generate short url
+For every original URL you provide, a random string is generated and appended to the project's hosting domain to create a short URL. The short URL is then mapped to the original URL. So, when you access the short URL, it automatically redirects you to the original URL.
+    
 
-    For every original URL you provide, a random string is generated and appended to the project's hosting domain to create a short URL. The short URL is then mapped to the original URL. So, when you access the short URL, it automatically redirects you to the original URL.
-
-  ### 2 For search url
+  ### 2. For search url
 
  You can search for URLs by one the following
 
@@ -45,7 +45,7 @@ The URL Shortener and Search Optimization project is designed to simplify long U
   The search result will provide you full url , short url that are generated and number of clicks that short url get
 
 
-  ### 3 Authentication
+  ### 3. Authentication
 
 
   - During the signup process, your email ID is used, and your password is securely hashed and saved in the MongoDB database.
